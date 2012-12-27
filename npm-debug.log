@@ -1,0 +1,61 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@1.1.70
+3 info using node@v0.8.14
+4 verbose node symlink /usr/local/bin/node
+5 verbose read json /Users/rege/Code/hubot-hedgeye/package.json
+6 verbose readDependencies using package.json deps
+7 verbose install where, deps [ '/Users/rege/Code/hubot-hedgeye',
+7 verbose install   [ 'hubot', 'hubot-scripts', 'optparse', 'xml2js', 'hubot-skype' ] ]
+8 verbose from cache /Users/rege/Code/hubot-hedgeye/package.json
+9 info preinstall hosted-hubot@2.3.2
+10 verbose read json /Users/rege/Code/hubot-hedgeye/node_modules/hubot/package.json
+11 verbose read json /Users/rege/Code/hubot-hedgeye/node_modules/hubot-scripts/package.json
+12 verbose read json /Users/rege/Code/hubot-hedgeye/node_modules/hubot-skype/package.json
+13 verbose read json /Users/rege/Code/hubot-hedgeye/node_modules/optparse/package.json
+14 verbose read json /Users/rege/Code/hubot-hedgeye/node_modules/xml2js/package.json
+15 verbose from cache /Users/rege/Code/hubot-hedgeye/package.json
+16 verbose readDependencies using package.json deps
+17 verbose read json /Users/rege/Code/hubot-hedgeye/node_modules/.bin/package.json
+18 verbose from cache /Users/rege/Code/hubot-hedgeye/node_modules/hubot/package.json
+19 verbose from cache /Users/rege/Code/hubot-hedgeye/node_modules/hubot-scripts/package.json
+20 verbose from cache /Users/rege/Code/hubot-hedgeye/node_modules/hubot-skype/package.json
+21 verbose from cache /Users/rege/Code/hubot-hedgeye/node_modules/optparse/package.json
+22 verbose from cache /Users/rege/Code/hubot-hedgeye/node_modules/xml2js/package.json
+23 verbose already installed skipping optparse@1.0.3 /Users/rege/Code/hubot-hedgeye
+24 verbose already installed skipping xml2js@>=0.1.14 /Users/rege/Code/hubot-hedgeye
+25 verbose cache add [ 'hubot-skype@git://github.com/A-S-Kozienko/hubot-skype.git',
+25 verbose cache add   null ]
+26 silly cache add name=undefined spec="hubot-skype@git://github.com/A-S-Kozienko/hubot-skype.git" args=["hubot-skype@git://github.com/A-S-Kozienko/hubot-skype.git",null]
+27 verbose parsed url { pathname: 'hubot-skype@git://github.com/A-S-Kozienko/hubot-skype.git',
+27 verbose parsed url   path: 'hubot-skype@git://github.com/A-S-Kozienko/hubot-skype.git',
+27 verbose parsed url   href: 'hubot-skype@git://github.com/A-S-Kozienko/hubot-skype.git' }
+28 silly cache add name="hubot-skype" spec="git://github.com/A-S-Kozienko/hubot-skype.git" args=["hubot-skype","git://github.com/A-S-Kozienko/hubot-skype.git"]
+29 verbose parsed url { protocol: 'git:',
+29 verbose parsed url   slashes: true,
+29 verbose parsed url   host: 'github.com',
+29 verbose parsed url   hostname: 'github.com',
+29 verbose parsed url   href: 'git://github.com/A-S-Kozienko/hubot-skype.git',
+29 verbose parsed url   pathname: '/A-S-Kozienko/hubot-skype.git',
+29 verbose parsed url   path: '/A-S-Kozienko/hubot-skype.git' }
+30 silly lockFile c84ff9ac-com-A-S-Kozienko-hubot-skype-git git://github.com/A-S-Kozienko/hubot-skype.git
+31 verbose lock git://github.com/A-S-Kozienko/hubot-skype.git /Users/rege/.npm/c84ff9ac-com-A-S-Kozienko-hubot-skype-git.lock
+32 verbose already installed skipping hubot@2.3.2 /Users/rege/Code/hubot-hedgeye
+33 verbose already installed skipping hubot-scripts@>= 2.1.0 /Users/rege/Code/hubot-hedgeye
+34 silly lockFile c84ff9ac-com-A-S-Kozienko-hubot-skype-git git://github.com/A-S-Kozienko/hubot-skype.git
+35 error Error: EACCES, open '/Users/rege/.npm/c84ff9ac-com-A-S-Kozienko-hubot-skype-git.lock'
+35 error  { [Error: EACCES, open '/Users/rege/.npm/c84ff9ac-com-A-S-Kozienko-hubot-skype-git.lock']
+35 error   errno: 3,
+35 error   code: 'EACCES',
+35 error   path: '/Users/rege/.npm/c84ff9ac-com-A-S-Kozienko-hubot-skype-git.lock' }
+36 error Please try running this command again as root/Administrator.
+37 error System Darwin 12.2.0
+38 error command "node" "/usr/local/bin/npm" "install"
+39 error cwd /Users/rege/Code/hubot-hedgeye
+40 error node -v v0.8.14
+41 error npm -v 1.1.70
+42 error path /Users/rege/.npm/c84ff9ac-com-A-S-Kozienko-hubot-skype-git.lock
+43 error code EACCES
+44 error errno 3
+45 error stack Error: EACCES, open '/Users/rege/.npm/c84ff9ac-com-A-S-Kozienko-hubot-skype-git.lock'
+46 verbose exit [ 3, true ]
